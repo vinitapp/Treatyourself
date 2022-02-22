@@ -51,7 +51,7 @@
         <p class="goaltitle">At the end of your last challenge you'll receive a well-deserved reward!</p>
 
     <div class="container">
-        <button type="button" class="btn btn-primary btn-lg btn-block">Start Challenge 1</button>
+        <button type="button" class="btn btn-primary btn-lg btn-block" onclick="goToStartChallengePage()">Start Challenge 1</button>
         <button type="button" class="btn btn-success btn-lg btn-block" style="background-color:#323F4B;">Start Challenge 2</button>
         <button type="button" class="btn btn-success btn-lg btn-block"style="background-color:#323F4B;">Start Challenge 3</button>
     </div>
@@ -60,6 +60,13 @@
         <img src="assets/images/lockTask.png" alt="locktask" style="width:30px;margin-top:-95px;margin-left: 300px;">
         <img src="assets/images/lockTask.png" alt="locktask" style="width:30px;margin-top:-255px;margin-left: 300px;">
     </div>
+
+    <script>
+        function goToStartChallengePage() {
+            location.replace("https://vinitapp.github.io/Treatyourself/startChallenge.html")
+        }
+    </script>
+    
 
 
 
